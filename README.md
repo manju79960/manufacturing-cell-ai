@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Teaching an AI Agent to Operate a Manufacturing Cell
 
 A software-only virtual manufacturing-cell case study with a React dashboard, FastAPI backend, Q-learning agent, action validation, event log, metrics, and emergency stop.
@@ -130,3 +131,6 @@ The backend currently allows cross-origin requests from any origin to simplify t
 - **Backend API docs (optional):** your Render URL + `/docs`
 
 Do not submit placeholder URLs. Replace them with your actual deployed links and verify the live demo before submitting.
+=======
+# manufacturing-cell-ai
+>>>>>>> d14e645780bd06295c3622502b62c8e0f08869e3
