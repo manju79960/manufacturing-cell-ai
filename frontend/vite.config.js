@@ -1,8 +1,10 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
 
-// This repository is published at /manufacturing-cell-ai/ on GitHub Pages.
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
 export default defineConfig({
   plugins: [react()],
-  base: '/manufacturing-cell-ai/',
-});
+  base: process.env.GITHUB_ACTIONS
+    ? '/manufacturing-cell-ai/'
+    : '/',
+})
